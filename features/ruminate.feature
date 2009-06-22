@@ -1,9 +1,9 @@
-Feature: something something
-  In order to something something
-  A user something something
-  something something something
+Feature: Get Page Title
+  In to get the page title
+  A user of ruminate
+  Will request a page title
 
-  Scenario: something something
-    Given inspiration
-    When I create a sweet new gem
-    Then everyone should see how awesome I am
+  Scenario: Requesting the title of a page from the page
+    Given the url "http://www.google.com"
+    When I execute the request
+    Then the "title" should be "Google"

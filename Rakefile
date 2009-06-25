@@ -9,6 +9,8 @@ begin
     gem.email = "jamal.hansen@gmail.com"
     gem.homepage = "http://github.com/rubyyot/ruminate"
     gem.authors = ["Jamal Hansen"]
+    gem.add_development_dependency('mocha', '>= 0.9.5')
+    gem.add_development_dependency('thoughtbot-shoulda', '>= 2.10.0')
 
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end

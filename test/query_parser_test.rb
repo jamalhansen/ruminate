@@ -13,7 +13,11 @@ class QueryParserTest < Test::Unit::TestCase
     end
 
     should 'populate from clause' do
-      assert_equal "http://www.example.com", @parser.parse(@sample).from
+      assert_equal "www.example.com", @parser.parse(@sample).from
+    end
+
+    should 'populate different from clause' do
+      assert_equal "www.rubyyot.com", @parser.parse("Select title from www.rubyyot.com").from
     end
 
     should 'populate select clause' do

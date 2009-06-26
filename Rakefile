@@ -9,6 +9,8 @@ begin
     gem.email = "jamal.hansen@gmail.com"
     gem.homepage = "http://github.com/rubyyot/ruminate"
     gem.authors = ["Jamal Hansen"]
+    gem.add_dependency('hpricot')
+    gem.add_dependency('oniguruma')
     gem.add_development_dependency('mocha', '>= 0.9.5')
     gem.add_development_dependency('thoughtbot-shoulda', '>= 2.10.0')
 

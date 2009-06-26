@@ -4,6 +4,6 @@ Feature: Get Page Title
   Will request a page title
 
   Scenario: Requesting the title of a page from the page
-    Given the url "http://www.google.com"
+    Given the url "google.com"
     When I execute the request
     Then the "title" should be "Google"

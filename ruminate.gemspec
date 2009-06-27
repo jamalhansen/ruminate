@@ -27,6 +27,7 @@ Gem::Specification.new do |s|
      "lib/query.rb",
      "lib/query_parser.rb",
      "lib/ruminate.rb",
+     "ruminate.gemspec",
      "test/engine_test.rb",
      "test/fixture_injector.rb",
      "test/fixtures/delicious.com",
